@@ -2,7 +2,7 @@
 # inspired by virtualfish
 # inspired by autoenvfish
 # inspired by autoenv
-
+echo "loaded here"
 
 # allow overriding of the default autoenvstack file name
 if not set -q AUTOENVSTACK_FILE
@@ -12,7 +12,8 @@ end
 # stuff we don't want to touch
 set restricted_vars 'status' 'history' 'version' '_' \
     'LINES' 'COLUMNS' 'PWD' 'SHLVL' 'FISH_VERSION' 'umask' 'argv' \
-    'HOME' 'USER' 'CMD_DURATION' 'CURRENT_STACK'
+    'HOME' 'USER' 'CMD_DURATION' 'CURRENT_STACK' \
+    'fish_pid' 'hostname'
 
 set old_prefix autoenv_old_
 
