@@ -13,7 +13,7 @@ end
 set restricted_vars 'status' 'history' 'version' '_' \
     'LINES' 'COLUMNS' 'PWD' 'SHLVL' 'FISH_VERSION' 'umask' 'argv' \
     'HOME' 'USER' 'CMD_DURATION' 'CURRENT_STACK' \
-    'fish_pid' 'hostname'
+    'fish_pid' 'hostname' 'fish_private_mode' 'pipestatus'
 
 set old_prefix autoenv_old_
 
