@@ -2,7 +2,6 @@
 # inspired by virtualfish
 # inspired by autoenvfish
 # inspired by autoenv
-echo "loaded here"
 
 # allow overriding of the default autoenvstack file name
 if not set -q AUTOENVSTACK_FILE
