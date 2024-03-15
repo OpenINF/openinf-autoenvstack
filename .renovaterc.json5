@@ -15,7 +15,7 @@
   vulnerabilityAlerts: {
     labels: ["security"],
     automerge: true,
-    assignees: ["@DerekNonGeneric"],
+    assignees: ["@OpenINF/wg-a-team"],
   },
   lockFileMaintenance: {
     enabled: true,
