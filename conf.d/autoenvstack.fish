@@ -140,7 +140,7 @@ function _autoenvstack_deactivate_env -a env_dir
         set -l old_var_name $old_prefix$env_hash$var_name
         # The tricky part here is not to remove currently active var,
         # but to replace it with new value. Otherwise the export flag is lost.
-        set $var_name $$old_var_name
+        set -g $var_name $$old_var_name
         # We're about to leave the environment, have to clean up the vars from
         # the namespace of environment we're leaving
         set -e $old_var_name
